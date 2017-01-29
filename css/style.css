@@ -1,0 +1,14 @@
+body {
+	font-family: Roboto, Helvetica, sans-serif;
+	background-color: black;
+}
+
+#topbar {
+	text-align: center;
+	color: #fcdb00;
+}
+
+p {
+	font-family: Roboto, Helvetica, sans-serif;
+	color: #eeeeee;
+}
