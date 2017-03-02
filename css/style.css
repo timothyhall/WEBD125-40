@@ -1,11 +1,29 @@
 body {
 	font-family: Roboto, Helvetica, sans-serif;
-	background-color: black;
+	background-color: #111;
 }
 
+/*section to style & position title bar*/
 #topbar {
 	text-align: center;
 	color: #fcdb00;
+	height: 100px;
+	width: 100%;
+	margin:auto;
+	position: absolute;
+	top: 0px;
+}
+
+#topbar>h1{
+	font-family: 'UnifrakturMaguntia', cursive;
+}
+
+/*section to style & position the nav bar*/
+nav {
+	position: absolute;
+	top: 120px;
+	width: 100%;
+	border-bottom: 1px solid #fcdb00;
 }
 
 nav ul{
@@ -38,6 +56,144 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-p {
-	color: #eeeeee;
+/*Styling for news/index page*/
+
+.news {
+	width: 85%;
+	margin: auto;
+	margin-top: 150px;
+	position: relative;
+	top: 10px;
+}
+
+figure img {
+	display: block;
+	margin-bottom: 10px;
+}
+
+figcaption {
+	color: #fcdb00;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+figcaption a {
+	color: #fcdb00;
+}
+
+.cc {
+	font-size: 75%;
+}
+
+/*Styling for the menu page*/
+#menucontainer {
+	width: 90%;
+	margin: auto;
+	margin-top: 150px;
+	position: relative;
+	top: 10px;
+}
+
+#menucol1 {
+	float: left;
+	margin-bottom: 2em;
+	min-width: 300px;
+	padding: 1%;
+	width: 31%;
+}
+
+
+#menucol2 {
+	float: left;
+	margin-bottom: 2em;
+	min-width: 300px;
+	padding: 1%;
+	width: 31%;
+}
+
+#menucol3 {
+	float: left;
+	margin-bottom: 2em;
+	min-width: 300px;
+	padding: 1%;
+	width: 31%;
+}
+
+/*Styling menu elements*/
+.mealgroup {
+	color: #fcdb00;
+	margin-bottom: 25px;
+	font-size: 2em;
+	font-weight: normal;
+}
+
+.mealname {
+	color: white;
+	font-weight: normal;
+	font-size: 1.5em;
+}
+
+.mealinfo {
+	padding-bottom: 20px;
+	color: white;
+	font-weight: lighter;
+}
+
+/* styling for order form*/
+#order {
+	width: 90%;
+	margin: auto;
+	margin-top: 150px;
+	position: relative;
+	top: 10px;
+	color: #fcdb00;
+	text-align: center;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+#order caption {
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.tblsectn {
+	margin-right: 10px;
+	text-align: center;
+	border-spacing: 15px;
+}
+
+td {
+	border: 1px solid #fcdb00;
+}
+
+th {
+	padding-top: 25px;
+}
+
+.orderentry {
+	padding: 50px;
+	border-top: 2px solid #fcdb00;
+}
+/*Styling for the contact form*/
+#contactform {
+	width: 90%;
+	margin: auto;
+	margin-top: 150px;
+	position: relative;
+	top: 10px;
+	color: #fcdb00;
+	text-align: center;
+}
+
+input {
+	width: 200px;
+	padding: 2px;
+	color: #fcdb00;
+	background: #222;
+	border-radius: 10px;
+	margin: 5px;
+	border-color: #ff0000;
+	
 }
